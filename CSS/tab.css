@@ -1,0 +1,71 @@
+nav{
+    height: 90px;
+    margin-bottom: 4rem;
+    padding: 0 2rem;
+}
+nav img{
+    width: 12rem;
+}
+.header-section{
+    padding: 0 3rem;
+}
+.tagline h1{
+    font-size: 1.5rem;
+}
+.tagline p{
+    font-size: 0.7rem;
+}
+.tagline button{
+    width: 12rem;
+    height: 2.5rem;
+}
+.main-illustration img{
+    width: 20rem;
+}
+
+/* ====================== CARD SECTION ====================== */
+.container{
+    padding: 5rem 3rem;
+}
+.boxes{
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+.text-container{
+    width: 20rem;
+    padding: 0 1rem;
+}
+.text-container h1{
+    font-size: 1.5rem;
+}
+.text-container p{
+    font-size: 0.8rem;
+}
+.illustration-img{
+    width: 20rem;
+}
+
+/* ====================== FOOTER STYLING ====================== */
+footer {
+    padding: 7rem 2rem 3rem;
+}
+.foot-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+}
+.socail i{
+    display: block;
+    position: fixed;
+}
+
+/* START DIVISION */
+.start{
+    width: 80%;
+    padding: 1rem 2rem;
+    bottom: 40rem;
+}
+.start h1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
