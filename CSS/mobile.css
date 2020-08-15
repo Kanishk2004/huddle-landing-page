@@ -105,3 +105,20 @@ i{
 .social{
     text-align: center;
 }
+
+/* START DIVISION */
+.start{
+    padding: 2rem 1rem;
+    margin: 0 1rem;
+    bottom: 56rem;
+}
+.start h1{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.start button{
+    width: 11rem;
+    height: 2.5rem;
+    box-shadow: 0 3px 5px -3px black;
+    font-size: 0.7rem;
+}
