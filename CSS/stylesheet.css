@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* STYLING NAVBAR */
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    padding: 0 3rem;
+}
+nav button{
+    width: 12rem;
+    height: 2.7rem;
+    background: white;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 3px 12px -4px rgb(143, 143, 143);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+.tagline{
+    width: 40%;
+}
+.tagline h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 1rem;
+}
+.tagline p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: hsl(218, 7%, 23%);
+    margin-bottom: 2rem;
+}
+.tagline button, button{
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    font-weight: bolder;
+    color: hsl(192, 100%, 9%);
+}
+.tagline button{
+    color: white;
+}
+.main-illustration img{
+    width: 45rem;
+}
+
+/* ====================== CARD SECTION ====================== */
+.container{
+    width: 100%;
+    padding: 10rem 8rem;
+    margin-bottom: 3rem;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 5rem;
+    margin: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.boxes:nth-child(even){
+    flex-direction: row-reverse;
+}
+.text-container{
+    width: 30rem;
+}
+.text-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding: 0 0 0.6rem;
+    color: hsl(192, 100%, 9%);
+}
+.text-container p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: hsl(208, 11%, 55%);
+}
+.illustration-img{
+    width: 25rem;
+}
+
+
+/* ====================== FOOTER STYLING ====================== */
+footer{
+    width: 100%;
+    background: hsl(192, 100%, 9%);
+    padding: 10rem 8rem 5rem;
+    color: white;
+    position: relative;
+}
+footer img{
+    padding: 2rem 0;
+}
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    font-size: 1.5rem;
+}
+
+/* CONTACT DIV */
+.contact-info{
+    width: 23rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* LOCATION DIV */
+.location{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.location i{
+    padding-right: 1rem;
+}
+
+/* PHONE DIV */
+.phone{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.phone i{
+    padding-right: 1rem;
+}
+
+/* EMAIL DIV */
+.email{
+    display: flex;
+}
+.email i{
+    padding-right: 1rem;
+}
+
+/* LINKS */
+.links li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1rem;
+    word-spacing: 0.3rem;
+}
+
+/* LINKS SECOND DIV */
+.terms li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1rem;
+    word-spacing: 0.3rem;
+}
+
+/* SOCIAL DIVISION */
+.social i{
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border: 1.5px solid white;
+    border-radius: 50%;
+}
+.social .fa-facebook-f{
+    padding: 0.8rem 1rem;
+}
+.social p{
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+/* START DIVISION */
+.start-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.start{
+    position: absolute;
+    background: #fff;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 2rem 4rem;
+    box-shadow: 0px 0px 10px rgba(61, 61, 61, 0.75);
+    border-radius: 10px;
+    bottom: 28rem;
+}
+.start h1{
+    padding-bottom: 2rem;
+}
+.start button{
+    color: white;
+}

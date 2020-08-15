@@ -1,0 +1,107 @@
+/* NAVBAR STYLING */
+nav{
+    padding: 0 1.5rem;
+    height: 80px;
+}
+nav img{
+    width: 7rem;
+}
+nav button{
+    width: 7rem;
+    height: 2rem;
+}
+header{
+    height: 100%;
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-size: cover;
+}
+.header-section{
+    padding: 0 1.5rem;
+    flex-direction: column;
+}
+.tagline{
+    width: 100%;
+    margin: 3rem 0 0;
+}
+.tagline h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.tagline p{
+    text-align: center;
+}
+.tagline button{
+    display: block;
+    margin: 0 auto;
+    height: 2.5rem;
+}
+.main-illustration img{
+    margin: 2rem 0rem;
+    width: 16rem;
+}
+
+/* ====================== CARD SECTION ====================== */
+.container{
+    padding: 4rem 1rem;
+}
+.boxes{
+    padding: 2rem 0.5rem;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.boxes:nth-child(even){
+    flex-direction: column-reverse;
+}
+.illustration-img{
+    width: 12rem;
+}
+.text-container{
+    width: 15em;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.text-container h1{
+    font-size: 1.3rem;
+}
+.text-container p{
+    font-size: 0.75rem;
+}
+
+/* ====================== FOOTER STYLING ====================== */
+footer{
+    padding: 8rem 2rem 3rem;
+}
+footer img{
+    padding: 1.5rem 0;
+    width: 10rem;
+}
+.foot-container{
+    display: block;
+}
+i{
+    font-size: 1rem;
+}
+/* CONTACT DIV */
+.contact-info{
+    width: 18rem;
+    margin-bottom: 3.5rem;
+}
+/* LINKS */
+.links li{
+    font-size: 1.3rem;
+}
+.links{
+    margin-bottom: 3rem;
+}
+/* LINKS SECOND DIV */
+.terms li{
+    font-size: 1.3rem;
+}
+.terms{
+    margin-bottom: 3rem;
+}
+/* SOCIAL DIVISION */
+.social{
+    text-align: center;
+}
